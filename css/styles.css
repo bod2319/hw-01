@@ -1,4 +1,9 @@
-:root {}
+:root {
+    --bg-white: #ffffff;
+    --bg-black: #2e2f42;
+    --bg-team: #f4f4fd;
+    --color-text: #434455
+}
 
 .body {
     font-family: "Raleway", sans-serif; "Roboto", sans-serif;
