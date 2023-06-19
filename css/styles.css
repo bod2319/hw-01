@@ -1,12 +1,9 @@
-:root {
-    --bg-white: #ffffff;
-    --bg-black: #2e2f42;
-    --bg-team: #f4f4fd;
-    --color-text: #434455
-}
+
 
 .body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
