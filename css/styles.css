@@ -1,6 +1,10 @@
 
 :root {
-    --brand-color: #3f51b5;
+    --brand-color: #ffffff;
+    --letter-spacing: #4d5ae5;
+    --link-color: #2e2f42;
+    --link-color-add: #434455;
+    --color-footer: #f4f4fd;
 }
 .body {
     font-family: "Roboto", sans-serif;
@@ -19,6 +23,8 @@ a {
 button {
     font-family: "Roboto";
     cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 
 .header {
@@ -52,25 +58,12 @@ button {
 .header-item {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--bg-black);
-}
+    font-size: 16px;co
 
 .header-link {
     color: #2e2f42;
     text-decoration: none;
 }
-
-.header-link:hover {
-    color: #404bbf;
-}
-
-.header-link:focus {
-    color: #404bbf;
-}
-
 .address {
     font-style: normal;
 }
@@ -82,9 +75,9 @@ button {
     color: #434455;
 }
 
-.address-link:hover,
-.address-link:focus {
-    color: #404bbf;
+.link:hover,
+.link:focus {
+    color: #404bbf
 }
 
 .section {}
