@@ -19,14 +19,15 @@ a {
 }
 
 /*Header styles*/
-.logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--letter-spacing);
+.logo link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--letter-spacing);
+
 }
 
 .studio-down {
@@ -131,7 +132,12 @@ a {
 }
 
 .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--link-color);
 }
 
 .section-team {
