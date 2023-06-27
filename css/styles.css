@@ -149,7 +149,6 @@ nav {
 .header a {
     align-items: center;
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .span-studio {
@@ -350,7 +349,7 @@ nav {
 }
 
 .footer .container {
-    margin-bottom: 17px;
+    
     align-items: flex-start;
 }
 
