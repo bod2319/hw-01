@@ -118,7 +118,8 @@ a {
 
 .address a {
     color: #434455;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     align-items: center;
 }
 
@@ -170,7 +171,8 @@ nav {
 }
 
 .nav-link {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /*Section1*/
