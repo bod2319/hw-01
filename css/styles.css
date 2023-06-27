@@ -337,7 +337,7 @@ nav {
 
 .footer .link-logo {
     display: inline-block;
-   
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -345,7 +345,6 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin: 0;
     text-decoration: none;
 }
 
@@ -421,7 +420,6 @@ nav {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
     margin-bottom: 16px;
 }
 
