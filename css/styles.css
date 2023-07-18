@@ -142,16 +142,14 @@
  }
 
  .active-page::after {
-    content: '';
-        position: absolute;
-        left: 0;
-        display: block;
+    position: absolute;
+        left: 0px;
         bottom: -1px;
+        background-color: var(--pressed-state-color);
+        content: '';
         width: 100%;
         height: 4px;
-        background-color: #404bbf;
         border-radius: 2px;
-        color: #404bbf;
  }
 
  .address {
@@ -459,35 +457,32 @@
 
  .modal-window {
      position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     min-height: 584px;
-     width: 408px;
-     padding: 24px;
-     background: var(--modal-background-color);
-     box-shadow: 0px 1px 1px var(--modal-box-shadow-1),
-         0px 1px 3px var(--modal-shadow-2), 0px 2px 1px var(--modal-shadow-3);
-     border-radius: 4px;
-     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    width: 408px; 
+    min-height: 584px; 
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2); 
+    border-radius: 4px; 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .modal-close-button {
-     display: flex;
-     position: absolute;
-     top: 24px;
-     right: 24px;
-     align-items: center;
-     justify-content: center;
-     width: 24px;
-     height: 24px;
-     padding: 0;
-     cursor: pointer;
-     background-color: var(--accent-color);
-     border: 1px solid var(--close-button-border-color);
-     border-radius: 50%;
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+        display: flex;
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .modal-close-button:hover,
