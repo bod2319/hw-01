@@ -142,14 +142,16 @@
  }
 
  .active-page::after {
-    position: absolute;
-        left: 0px;
+    content: '';
+        position: absolute;
+        left: 0;
+        display: block;
         bottom: -1px;
-        background-color: var(--pressed-state-color);
-        content: '';
         width: 100%;
         height: 4px;
+        background-color: #404bbf;
         border-radius: 2px;
+        color: #404bbf;
  }
 
  .address {
